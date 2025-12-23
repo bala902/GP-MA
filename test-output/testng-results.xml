@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-22T23:25:16 IST" name="Default suite" finished-at="2025-12-22T23:36:40 IST" duration-ms="684202">
+    <groups>
+    </groups>
+    <test started-at="2025-12-22T23:25:16 IST" name="Default test" finished-at="2025-12-22T23:36:40 IST" duration-ms="684202">
+      <class name="mkAppt.dateAndTimeSlotSelection">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:16 IST" name="loadConfig" finished-at="2025-12-22T23:25:16 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:16 IST" name="setup" finished-at="2025-12-22T23:25:19 IST" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:19 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:31 IST" duration-ms="11793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aaron]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[aaron.smith@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:31 IST" name="tearDown" finished-at="2025-12-22T23:25:32 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:32 IST" name="setup" finished-at="2025-12-22T23:25:34 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:34 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:45 IST" duration-ms="11534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Emily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emily.johnson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:45 IST" name="tearDown" finished-at="2025-12-22T23:25:45 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:45 IST" name="setup" finished-at="2025-12-22T23:25:47 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:47 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:59 IST" duration-ms="11550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daniel]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[daniel.brown@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:59 IST" name="tearDown" finished-at="2025-12-22T23:25:59 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:59 IST" name="setup" finished-at="2025-12-22T23:26:01 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:12 IST" duration-ms="11560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sophia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Davis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sophia.davis@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:12 IST" name="tearDown" finished-at="2025-12-22T23:26:14 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:14 IST" name="setup" finished-at="2025-12-22T23:26:16 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:16 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:27 IST" duration-ms="11473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Liam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Miller]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[liam.miller@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:27 IST" name="tearDown" finished-at="2025-12-22T23:26:28 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:28 IST" name="setup" finished-at="2025-12-22T23:26:29 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:29 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:41 IST" duration-ms="12278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Olivia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[olivia.wilson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:41 IST" name="tearDown" finished-at="2025-12-22T23:26:41 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:41 IST" name="setup" finished-at="2025-12-22T23:26:43 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:55 IST" duration-ms="11542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ethan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Moore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ethan.moore@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:55 IST" name="tearDown" finished-at="2025-12-22T23:26:55 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:55 IST" name="setup" finished-at="2025-12-22T23:26:57 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:57 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:08 IST" duration-ms="11404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ava]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Taylor]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ava.taylor@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:08 IST" name="tearDown" finished-at="2025-12-22T23:27:09 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:09 IST" name="setup" finished-at="2025-12-22T23:27:10 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:10 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:22 IST" duration-ms="12283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jacob]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anderson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jacob.anderson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:22 IST" name="tearDown" finished-at="2025-12-22T23:27:25 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:25 IST" name="setup" finished-at="2025-12-22T23:27:26 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:26 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:38 IST" duration-ms="11508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mia.thomas@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:38 IST" name="tearDown" finished-at="2025-12-22T23:27:42 IST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:42 IST" name="setup" finished-at="2025-12-22T23:27:43 IST" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:55 IST" duration-ms="11692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[michael.jackson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:55 IST" name="tearDown" finished-at="2025-12-22T23:27:58 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:58 IST" name="setup" finished-at="2025-12-22T23:28:00 IST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:00 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:11 IST" duration-ms="11563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Isabella]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[isabella.white@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:11 IST" name="tearDown" finished-at="2025-12-22T23:28:25 IST" duration-ms="13436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:25 IST" name="setup" finished-at="2025-12-22T23:28:26 IST" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:26 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:38 IST" duration-ms="11598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[William]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Harris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[william.harris@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:38 IST" name="tearDown" finished-at="2025-12-22T23:28:41 IST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:41 IST" name="setup" finished-at="2025-12-22T23:28:42 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:42 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:53 IST" duration-ms="11507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Charlotte]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[charlotte.martin@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:53 IST" name="tearDown" finished-at="2025-12-22T23:28:56 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:56 IST" name="setup" finished-at="2025-12-22T23:28:57 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:57 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:08 IST" duration-ms="11472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thompson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[james.thompson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:08 IST" name="tearDown" finished-at="2025-12-22T23:29:10 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:10 IST" name="setup" finished-at="2025-12-22T23:29:12 IST" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:23 IST" duration-ms="11476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amelia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Garcia]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[amelia.garcia@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:23 IST" name="tearDown" finished-at="2025-12-22T23:29:36 IST" duration-ms="12637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:36 IST" name="setup" finished-at="2025-12-22T23:29:38 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:38 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:49 IST" duration-ms="11465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Benjamin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Martinez]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[benjamin.martinez@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:49 IST" name="tearDown" finished-at="2025-12-22T23:29:50 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:50 IST" name="setup" finished-at="2025-12-22T23:29:51 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:51 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:03 IST" duration-ms="11504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Harper]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Robinson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[harper.robinson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:03 IST" name="tearDown" finished-at="2025-12-22T23:30:10 IST" duration-ms="7258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:10 IST" name="setup" finished-at="2025-12-22T23:30:12 IST" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:24 IST" duration-ms="11445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Clark]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[lucas.clark@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:24 IST" name="tearDown" finished-at="2025-12-22T23:30:27 IST" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:27 IST" name="setup" finished-at="2025-12-22T23:30:28 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:28 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:40 IST" duration-ms="12107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Evelyn]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[evelyn.rodriguez@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:40 IST" name="tearDown" finished-at="2025-12-22T23:30:45 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:45 IST" name="setup" finished-at="2025-12-22T23:30:46 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:46 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:59 IST" duration-ms="12456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aaron]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[aaron.smith@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:59 IST" name="tearDown" finished-at="2025-12-22T23:30:59 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:59 IST" name="setup" finished-at="2025-12-22T23:31:01 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:12 IST" duration-ms="11777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Emily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emily.johnson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:12 IST" name="tearDown" finished-at="2025-12-22T23:31:14 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:14 IST" name="setup" finished-at="2025-12-22T23:31:16 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:16 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:28 IST" duration-ms="11928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daniel]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[daniel.brown@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:28 IST" name="tearDown" finished-at="2025-12-22T23:31:35 IST" duration-ms="7323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:35 IST" name="setup" finished-at="2025-12-22T23:31:36 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:36 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:48 IST" duration-ms="11457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sophia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Davis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sophia.davis@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:48 IST" name="tearDown" finished-at="2025-12-22T23:31:58 IST" duration-ms="9881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:58 IST" name="setup" finished-at="2025-12-22T23:31:58 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:58 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:10 IST" duration-ms="11962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Liam]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Miller]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[liam.miller@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:10 IST" name="tearDown" finished-at="2025-12-22T23:32:11 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:11 IST" name="setup" finished-at="2025-12-22T23:32:12 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:24 IST" duration-ms="11504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Olivia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[olivia.wilson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:24 IST" name="tearDown" finished-at="2025-12-22T23:32:41 IST" duration-ms="16968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:41 IST" name="setup" finished-at="2025-12-22T23:32:42 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:42 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:53 IST" duration-ms="11445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ethan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Moore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ethan.moore@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:53 IST" name="tearDown" finished-at="2025-12-22T23:33:03 IST" duration-ms="9776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:03 IST" name="setup" finished-at="2025-12-22T23:33:04 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:04 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:16 IST" duration-ms="11400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ava]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Taylor]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ava.taylor@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:16 IST" name="tearDown" finished-at="2025-12-22T23:33:31 IST" duration-ms="15164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:31 IST" name="setup" finished-at="2025-12-22T23:33:32 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:32 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:44 IST" duration-ms="11490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[e - nine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jacob]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anderson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[jacob.anderson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:44 IST" name="tearDown" finished-at="2025-12-22T23:33:46 IST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:46 IST" name="setup" finished-at="2025-12-22T23:33:47 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:47 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:59 IST" duration-ms="11360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mia.thomas@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:59 IST" name="tearDown" finished-at="2025-12-22T23:33:59 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:59 IST" name="setup" finished-at="2025-12-22T23:34:01 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:12 IST" duration-ms="11590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[michael.jackson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:12 IST" name="tearDown" finished-at="2025-12-22T23:34:13 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:13 IST" name="setup" finished-at="2025-12-22T23:34:14 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:14 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:26 IST" duration-ms="12087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Isabella]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[isabella.white@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:26 IST" name="tearDown" finished-at="2025-12-22T23:34:33 IST" duration-ms="7360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:33 IST" name="setup" finished-at="2025-12-22T23:34:34 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:34 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:46 IST" duration-ms="11467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[William]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Harris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[william.harris@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:46 IST" name="tearDown" finished-at="2025-12-22T23:35:02 IST" duration-ms="16187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:02 IST" name="setup" finished-at="2025-12-22T23:35:03 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:03 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:15 IST" duration-ms="11528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Charlotte]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[charlotte.martin@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:15 IST" name="tearDown" finished-at="2025-12-22T23:35:15 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:15 IST" name="setup" finished-at="2025-12-22T23:35:17 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:17 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:28 IST" duration-ms="11568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Thompson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[james.thompson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:28 IST" name="tearDown" finished-at="2025-12-22T23:35:28 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:28 IST" name="setup" finished-at="2025-12-22T23:35:30 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:42 IST" duration-ms="12035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amelia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Garcia]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[amelia.garcia@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:42 IST" name="tearDown" finished-at="2025-12-22T23:35:42 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:42 IST" name="setup" finished-at="2025-12-22T23:35:43 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:55 IST" duration-ms="12236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Benjamin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Martinez]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[benjamin.martinez@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:55 IST" name="tearDown" finished-at="2025-12-22T23:35:57 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:57 IST" name="setup" finished-at="2025-12-22T23:35:58 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:58 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:10 IST" duration-ms="11482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Harper]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Robinson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[harper.robinson@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:10 IST" name="tearDown" finished-at="2025-12-22T23:36:10 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:10 IST" name="setup" finished-at="2025-12-22T23:36:12 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:23 IST" duration-ms="11559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lucas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Clark]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[lucas.clark@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:23 IST" name="tearDown" finished-at="2025-12-22T23:36:26 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:26 IST" name="setup" finished-at="2025-12-22T23:36:27 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:27 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:39 IST" duration-ms="12305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[provider four]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Evelyn]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["11112000"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA["9876543210"]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[evelyn.rodriguez@testmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:39 IST" name="tearDown" finished-at="2025-12-22T23:36:40 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mkAppt.dateAndTimeSlotSelection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
