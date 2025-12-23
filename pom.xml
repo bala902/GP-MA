@@ -8,12 +8,7 @@
 	<artifactId>makeAPPT</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-		<!-- LambdaTest (if required) -->
-		<dependency>
-			<groupId>com.lambdatest</groupId>
-			<artifactId>LambdaTestProject</artifactId>
-			<version>1.0</version>
-		</dependency>
+	
 
 		<!-- Selenium Java -->
 		<dependency>
@@ -50,11 +45,7 @@
 			<version>5.2.5</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.rhombuzz</groupId>
-			<artifactId>EFM.core</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 
 	<build>
