@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+<testng-results ignored="0" total="41" passed="27" failed="3" skipped="11">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-22T23:25:16 IST" name="Default suite" finished-at="2025-12-22T23:36:40 IST" duration-ms="684202">
+  <suite started-at="2025-12-24T19:26:09 IST" name="Default suite" finished-at="2025-12-24T19:46:30 IST" duration-ms="1221675">
     <groups>
     </groups>
-    <test started-at="2025-12-22T23:25:16 IST" name="Default test" finished-at="2025-12-22T23:36:40 IST" duration-ms="684202">
+    <test started-at="2025-12-24T19:26:09 IST" name="Default test" finished-at="2025-12-24T19:46:30 IST" duration-ms="1221675">
       <class name="mkAppt.dateAndTimeSlotSelection">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:16 IST" name="loadConfig" finished-at="2025-12-22T23:25:16 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:26:09 IST" name="loadConfig" finished-at="2025-12-24T19:26:09 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:16 IST" name="setup" finished-at="2025-12-22T23:25:19 IST" duration-ms="2783" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:26:12 IST" name="setup" finished-at="2025-12-24T19:26:19 IST" duration-ms="6781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:19 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:31 IST" duration-ms="11793" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:26:19 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:26:40 IST" duration-ms="21001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:31 IST" name="tearDown" finished-at="2025-12-22T23:25:32 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:26:40 IST" name="tearDown" finished-at="2025-12-24T19:27:11 IST" duration-ms="31087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:32 IST" name="setup" finished-at="2025-12-22T23:25:34 IST" duration-ms="1970" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:27:11 IST" name="setup" finished-at="2025-12-24T19:27:14 IST" duration-ms="3099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:34 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:45 IST" duration-ms="11534" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:27:14 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:27:31 IST" duration-ms="17468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,15 +125,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:45 IST" name="tearDown" finished-at="2025-12-22T23:25:45 IST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:27:31 IST" name="tearDown" finished-at="2025-12-24T19:27:44 IST" duration-ms="12212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:45 IST" name="setup" finished-at="2025-12-22T23:25:47 IST" duration-ms="1604" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:27:44 IST" name="setup" finished-at="2025-12-24T19:27:51 IST" duration-ms="7070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:47 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:25:59 IST" duration-ms="11550" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:27:51 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:28:24 IST" duration-ms="33068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,15 +184,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:59 IST" name="tearDown" finished-at="2025-12-22T23:25:59 IST" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:28:24 IST" name="tearDown" finished-at="2025-12-24T19:28:43 IST" duration-ms="19237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:25:59 IST" name="setup" finished-at="2025-12-22T23:26:01 IST" duration-ms="1666" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:28:43 IST" name="setup" finished-at="2025-12-24T19:28:48 IST" duration-ms="4718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:12 IST" duration-ms="11560" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:28:48 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:29:13 IST" duration-ms="25285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,15 +243,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:12 IST" name="tearDown" finished-at="2025-12-22T23:26:14 IST" duration-ms="2065" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:29:13 IST" name="tearDown" finished-at="2025-12-24T19:29:25 IST" duration-ms="11593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:14 IST" name="setup" finished-at="2025-12-22T23:26:16 IST" duration-ms="1457" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:29:25 IST" name="setup" finished-at="2025-12-24T19:29:27 IST" duration-ms="2653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:16 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:27 IST" duration-ms="11473" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:29:27 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:29:55 IST" duration-ms="27550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,15 +302,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:27 IST" name="tearDown" finished-at="2025-12-22T23:26:28 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:29:55 IST" name="tearDown" finished-at="2025-12-24T19:30:04 IST" duration-ms="9151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:28 IST" name="setup" finished-at="2025-12-22T23:26:29 IST" duration-ms="842" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:30:04 IST" name="setup" finished-at="2025-12-24T19:30:09 IST" duration-ms="5485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:29 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:41 IST" duration-ms="12278" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:30:09 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:30:33 IST" duration-ms="23429" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,15 +361,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:41 IST" name="tearDown" finished-at="2025-12-22T23:26:41 IST" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:30:33 IST" name="tearDown" finished-at="2025-12-24T19:30:35 IST" duration-ms="2241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:41 IST" name="setup" finished-at="2025-12-22T23:26:43 IST" duration-ms="1832" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:30:35 IST" name="setup" finished-at="2025-12-24T19:30:43 IST" duration-ms="7619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:26:55 IST" duration-ms="11542" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:30:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:31:05 IST" duration-ms="22405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,15 +420,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:55 IST" name="tearDown" finished-at="2025-12-22T23:26:55 IST" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:05 IST" name="tearDown" finished-at="2025-12-24T19:31:10 IST" duration-ms="4939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:55 IST" name="setup" finished-at="2025-12-22T23:26:57 IST" duration-ms="1643" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:10 IST" name="setup" finished-at="2025-12-24T19:31:15 IST" duration-ms="4604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:26:57 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:08 IST" duration-ms="11404" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:15 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:31:20 IST" duration-ms="5521" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -476,18 +476,88 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='DC']"}
+  (Session info: chrome=143.0.7499.148)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00cb24c967d1fa987d0c1edada03e4ad, findElement {using=xpath, value=//h4[normalize-space()='DC']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 30824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00cb24c967d1fa987d0c1edada03e4ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[normalize-space()='DC']"}
+  (Session info: chrome=143.0.7499.148)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00cb24c967d1fa987d0c1edada03e4ad, findElement {using=xpath, value=//h4[normalize-space()='DC']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65359}, goog:processID: 30824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00cb24c967d1fa987d0c1edada03e4ad
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Pages.SlotSelection.handleLocation(SlotSelection.java:95)
+at mkAppt.dateAndTimeSlotSelection.test(dateAndTimeSlotSelection.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:08 IST" name="tearDown" finished-at="2025-12-22T23:27:09 IST" duration-ms="473" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:20 IST" name="tearDown" finished-at="2025-12-24T19:31:24 IST" duration-ms="3935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:09 IST" name="setup" finished-at="2025-12-22T23:27:10 IST" duration-ms="898" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:24 IST" name="setup" finished-at="2025-12-24T19:31:28 IST" duration-ms="4110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:10 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:22 IST" duration-ms="12283" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:28 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:31:54 IST" duration-ms="26276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -538,15 +608,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:22 IST" name="tearDown" finished-at="2025-12-22T23:27:25 IST" duration-ms="2968" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:54 IST" name="tearDown" finished-at="2025-12-24T19:31:56 IST" duration-ms="1461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:25 IST" name="setup" finished-at="2025-12-22T23:27:26 IST" duration-ms="1564" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:31:56 IST" name="setup" finished-at="2025-12-24T19:32:03 IST" duration-ms="7341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:26 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:38 IST" duration-ms="11508" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:32:03 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:32:23 IST" duration-ms="19251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -597,15 +667,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:38 IST" name="tearDown" finished-at="2025-12-22T23:27:42 IST" duration-ms="3782" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:32:23 IST" name="tearDown" finished-at="2025-12-24T19:32:23 IST" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:42 IST" name="setup" finished-at="2025-12-22T23:27:43 IST" duration-ms="1293" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:32:23 IST" name="setup" finished-at="2025-12-24T19:32:27 IST" duration-ms="3579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:27:55 IST" duration-ms="11692" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:32:27 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:32:53 IST" duration-ms="26249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -656,15 +726,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:55 IST" name="tearDown" finished-at="2025-12-22T23:27:58 IST" duration-ms="3731" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:32:53 IST" name="tearDown" finished-at="2025-12-24T19:33:10 IST" duration-ms="16350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:27:58 IST" name="setup" finished-at="2025-12-22T23:28:00 IST" duration-ms="1341" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:33:10 IST" name="setup" finished-at="2025-12-24T19:33:14 IST" duration-ms="4060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:00 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:11 IST" duration-ms="11563" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:33:14 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:33:39 IST" duration-ms="25251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -715,15 +785,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:11 IST" name="tearDown" finished-at="2025-12-22T23:28:25 IST" duration-ms="13436" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:33:39 IST" name="tearDown" finished-at="2025-12-24T19:33:44 IST" duration-ms="5673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:25 IST" name="setup" finished-at="2025-12-22T23:28:26 IST" duration-ms="1588" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:33:45 IST" name="setup" finished-at="2025-12-24T19:33:54 IST" duration-ms="9773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:26 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:38 IST" duration-ms="11598" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:33:54 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:34:16 IST" duration-ms="21667" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -774,15 +844,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:38 IST" name="tearDown" finished-at="2025-12-22T23:28:41 IST" duration-ms="2583" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:34:16 IST" name="tearDown" finished-at="2025-12-24T19:34:18 IST" duration-ms="2282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:41 IST" name="setup" finished-at="2025-12-22T23:28:42 IST" duration-ms="1333" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:34:18 IST" name="setup" finished-at="2025-12-24T19:34:21 IST" duration-ms="3132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:42 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:28:53 IST" duration-ms="11507" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:34:21 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:34:46 IST" duration-ms="24422" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -833,15 +903,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:53 IST" name="tearDown" finished-at="2025-12-22T23:28:56 IST" duration-ms="2312" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:34:46 IST" name="tearDown" finished-at="2025-12-24T19:35:14 IST" duration-ms="28275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:56 IST" name="setup" finished-at="2025-12-22T23:28:57 IST" duration-ms="1326" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:35:14 IST" name="setup" finished-at="2025-12-24T19:35:20 IST" duration-ms="6247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:28:57 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:08 IST" duration-ms="11472" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:35:20 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:35:39 IST" duration-ms="18318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -892,15 +962,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:08 IST" name="tearDown" finished-at="2025-12-22T23:29:10 IST" duration-ms="1982" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:35:39 IST" name="tearDown" finished-at="2025-12-24T19:36:10 IST" duration-ms="31212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:10 IST" name="setup" finished-at="2025-12-22T23:29:12 IST" duration-ms="1525" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:36:10 IST" name="setup" finished-at="2025-12-24T19:36:14 IST" duration-ms="3911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:23 IST" duration-ms="11476" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:36:14 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:36:32 IST" duration-ms="18663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -951,15 +1021,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:23 IST" name="tearDown" finished-at="2025-12-22T23:29:36 IST" duration-ms="12637" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:36:32 IST" name="tearDown" finished-at="2025-12-24T19:36:39 IST" duration-ms="7022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:36 IST" name="setup" finished-at="2025-12-22T23:29:38 IST" duration-ms="1548" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:36:39 IST" name="setup" finished-at="2025-12-24T19:36:45 IST" duration-ms="5207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:38 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:29:49 IST" duration-ms="11465" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:36:45 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:37:07 IST" duration-ms="22734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1010,15 +1080,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:49 IST" name="tearDown" finished-at="2025-12-22T23:29:50 IST" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:37:07 IST" name="tearDown" finished-at="2025-12-24T19:37:24 IST" duration-ms="17012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:50 IST" name="setup" finished-at="2025-12-22T23:29:51 IST" duration-ms="1534" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:37:24 IST" name="setup" finished-at="2025-12-24T19:37:29 IST" duration-ms="5086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:29:51 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:03 IST" duration-ms="11504" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:37:29 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:37:50 IST" duration-ms="20991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1069,15 +1139,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:03 IST" name="tearDown" finished-at="2025-12-22T23:30:10 IST" duration-ms="7258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:37:50 IST" name="tearDown" finished-at="2025-12-24T19:37:57 IST" duration-ms="6948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:10 IST" name="setup" finished-at="2025-12-22T23:30:12 IST" duration-ms="1985" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:37:57 IST" name="setup" finished-at="2025-12-24T19:38:03 IST" duration-ms="5529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:24 IST" duration-ms="11445" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:38:03 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:38:27 IST" duration-ms="24177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1128,15 +1198,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:24 IST" name="tearDown" finished-at="2025-12-22T23:30:27 IST" duration-ms="3311" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:38:27 IST" name="tearDown" finished-at="2025-12-24T19:38:42 IST" duration-ms="14879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:27 IST" name="setup" finished-at="2025-12-22T23:30:28 IST" duration-ms="920" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:38:42 IST" name="setup" finished-at="2025-12-24T19:38:51 IST" duration-ms="8616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:28 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:40 IST" duration-ms="12107" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:38:51 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:39:10 IST" duration-ms="18924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1187,15 +1257,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:40 IST" name="tearDown" finished-at="2025-12-22T23:30:45 IST" duration-ms="5431" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:39:10 IST" name="tearDown" finished-at="2025-12-24T19:39:33 IST" duration-ms="23159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:45 IST" name="setup" finished-at="2025-12-22T23:30:46 IST" duration-ms="944" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:39:33 IST" name="setup" finished-at="2025-12-24T19:39:36 IST" duration-ms="3593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:46 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:30:59 IST" duration-ms="12456" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:39:36 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:39:59 IST" duration-ms="22648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1246,15 +1316,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:59 IST" name="tearDown" finished-at="2025-12-22T23:30:59 IST" duration-ms="364" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:39:59 IST" name="tearDown" finished-at="2025-12-24T19:40:17 IST" duration-ms="18523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:30:59 IST" name="setup" finished-at="2025-12-22T23:31:01 IST" duration-ms="1460" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:40:17 IST" name="setup" finished-at="2025-12-24T19:40:21 IST" duration-ms="3788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:12 IST" duration-ms="11777" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:40:21 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:40:44 IST" duration-ms="22518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1305,15 +1375,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:12 IST" name="tearDown" finished-at="2025-12-22T23:31:14 IST" duration-ms="1978" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:40:44 IST" name="tearDown" finished-at="2025-12-24T19:40:58 IST" duration-ms="14464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:14 IST" name="setup" finished-at="2025-12-22T23:31:16 IST" duration-ms="1310" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:40:58 IST" name="setup" finished-at="2025-12-24T19:41:04 IST" duration-ms="5790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:16 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:28 IST" duration-ms="11928" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:41:04 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:41:26 IST" duration-ms="21689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1364,15 +1434,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:28 IST" name="tearDown" finished-at="2025-12-22T23:31:35 IST" duration-ms="7323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:41:26 IST" name="tearDown" finished-at="2025-12-24T19:41:40 IST" duration-ms="14448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:35 IST" name="setup" finished-at="2025-12-22T23:31:36 IST" duration-ms="1422" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:41:40 IST" name="setup" finished-at="2025-12-24T19:41:47 IST" duration-ms="6458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:36 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:31:48 IST" duration-ms="11457" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:41:47 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:42:14 IST" duration-ms="27064" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1420,18 +1490,86 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#scheduleAppointmentBtn"}
+  (Session info: chrome=143.0.7499.148)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [036f89ee04386f3f19c8692ccc19c9af, findElement {using=id, value=scheduleAppointmentBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56023}, goog:processID: 26772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56023/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 036f89ee04386f3f19c8692ccc19c9af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#scheduleAppointmentBtn"}
+  (Session info: chrome=143.0.7499.148)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [036f89ee04386f3f19c8692ccc19c9af, findElement {using=id, value=scheduleAppointmentBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56023}, goog:processID: 26772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56023/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 036f89ee04386f3f19c8692ccc19c9af
+at jdk.internal.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Pages.SlotSelection.sentAppointment(SlotSelection.java:242)
+at mkAppt.dateAndTimeSlotSelection.test(dateAndTimeSlotSelection.java:37)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:48 IST" name="tearDown" finished-at="2025-12-22T23:31:58 IST" duration-ms="9881" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:42:14 IST" name="tearDown" finished-at="2025-12-24T19:42:45 IST" duration-ms="31112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:58 IST" name="setup" finished-at="2025-12-22T23:31:58 IST" duration-ms="746" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:42:45 IST" name="setup" finished-at="2025-12-24T19:42:48 IST" duration-ms="3428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:31:58 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:10 IST" duration-ms="11962" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:42:48 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:43:10 IST" duration-ms="21755" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1482,15 +1620,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:10 IST" name="tearDown" finished-at="2025-12-22T23:32:11 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:43:10 IST" name="tearDown" finished-at="2025-12-24T19:43:23 IST" duration-ms="12547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:11 IST" name="setup" finished-at="2025-12-22T23:32:12 IST" duration-ms="1518" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:43:23 IST" name="setup" finished-at="2025-12-24T19:43:26 IST" duration-ms="3714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:24 IST" duration-ms="11504" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:43:26 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:44:00 IST" duration-ms="33374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1541,15 +1679,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:24 IST" name="tearDown" finished-at="2025-12-22T23:32:41 IST" duration-ms="16968" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:00 IST" name="tearDown" finished-at="2025-12-24T19:44:05 IST" duration-ms="5776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:41 IST" name="setup" finished-at="2025-12-22T23:32:42 IST" duration-ms="1267" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:05 IST" name="setup" finished-at="2025-12-24T19:44:11 IST" duration-ms="5845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:42 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:32:53 IST" duration-ms="11445" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:11 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:44:33 IST" duration-ms="22013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1600,15 +1738,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:32:53 IST" name="tearDown" finished-at="2025-12-22T23:33:03 IST" duration-ms="9776" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:33 IST" name="tearDown" finished-at="2025-12-24T19:44:35 IST" duration-ms="1880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:03 IST" name="setup" finished-at="2025-12-22T23:33:04 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:35 IST" name="setup" finished-at="2025-12-24T19:44:38 IST" duration-ms="3167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:04 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:16 IST" duration-ms="11400" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:44:38 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:45:08 IST" duration-ms="30169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1659,15 +1797,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:16 IST" name="tearDown" finished-at="2025-12-22T23:33:31 IST" duration-ms="15164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:45:08 IST" name="tearDown" finished-at="2025-12-24T19:45:38 IST" duration-ms="29519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:31 IST" name="setup" finished-at="2025-12-22T23:33:32 IST" duration-ms="1325" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:45:38 IST" name="setup" finished-at="2025-12-24T19:45:45 IST" duration-ms="6956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:32 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:44 IST" duration-ms="11490" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:45:45 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:07 IST" duration-ms="21852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1718,15 +1856,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:44 IST" name="tearDown" finished-at="2025-12-22T23:33:46 IST" duration-ms="2050" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:07 IST" name="tearDown" finished-at="2025-12-24T19:46:10 IST" duration-ms="2913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:46 IST" name="setup" finished-at="2025-12-22T23:33:47 IST" duration-ms="1391" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:10 IST" name="setup" finished-at="2025-12-24T19:46:13 IST" duration-ms="3577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:47 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:33:59 IST" duration-ms="11360" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:13 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:24 IST" duration-ms="10513" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1774,18 +1912,162 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35a7997e62975b854eb1f563693d9bbd, findElement {using=xpath, value=(//button[@type='button'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58934}, goog:processID: 35176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58934/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a7997e62975b854eb1f563693d9bbd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35a7997e62975b854eb1f563693d9bbd, findElement {using=xpath, value=(//button[@type='button'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58934}, goog:processID: 35176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58934/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a7997e62975b854eb1f563693d9bbd
+at jdk.internal.reflect.GeneratedConstructorAccessor46.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.toString(Unknown Source)
+at java.base/java.lang.String.valueOf(String.java:2951)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
+at java.base/java.lang.String.valueOf(String.java:2951)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
+at Pages.SlotSelection.typeOfBooking(SlotSelection.java:52)
+at mkAppt.dateAndTimeSlotSelection.test(dateAndTimeSlotSelection.java:15)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:59 IST" name="tearDown" finished-at="2025-12-22T23:33:59 IST" duration-ms="836" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:24 IST" name="tearDown" finished-at="2025-12-24T19:46:24 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:33:59 IST" name="setup" finished-at="2025-12-22T23:34:01 IST" duration-ms="1412" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:24 IST" name="setup" finished-at="2025-12-24T19:46:30 IST" duration-ms="6179" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:01 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:12 IST" duration-ms="11590" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1833,18 +2115,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:12 IST" name="tearDown" finished-at="2025-12-22T23:34:13 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790630" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:13 IST" name="setup" finished-at="2025-12-22T23:34:14 IST" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790632" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:14 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:26 IST" duration-ms="12087" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1892,18 +2243,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:26 IST" name="tearDown" finished-at="2025-12-22T23:34:33 IST" duration-ms="7360" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790642" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:33 IST" name="setup" finished-at="2025-12-22T23:34:34 IST" duration-ms="1297" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790644" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:34 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:34:46 IST" duration-ms="11467" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1951,18 +2371,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:34:46 IST" name="tearDown" finished-at="2025-12-22T23:35:02 IST" duration-ms="16187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790648" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:02 IST" name="setup" finished-at="2025-12-22T23:35:03 IST" duration-ms="1303" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790649" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:03 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:15 IST" duration-ms="11528" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2010,18 +2499,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:15 IST" name="tearDown" finished-at="2025-12-22T23:35:15 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790654" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:15 IST" name="setup" finished-at="2025-12-22T23:35:17 IST" duration-ms="1414" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790657" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:17 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:28 IST" duration-ms="11568" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2069,18 +2627,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:28 IST" name="tearDown" finished-at="2025-12-22T23:35:28 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790730" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:28 IST" name="setup" finished-at="2025-12-22T23:35:30 IST" duration-ms="1402" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790731" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:42 IST" duration-ms="12035" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2128,18 +2755,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:42 IST" name="tearDown" finished-at="2025-12-22T23:35:42 IST" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790742" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:42 IST" name="setup" finished-at="2025-12-22T23:35:43 IST" duration-ms="893" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790743" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:43 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:35:55 IST" duration-ms="12236" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2187,18 +2883,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:55 IST" name="tearDown" finished-at="2025-12-22T23:35:57 IST" duration-ms="1781" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790745" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:57 IST" name="setup" finished-at="2025-12-22T23:35:58 IST" duration-ms="1338" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790746" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:35:58 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:10 IST" duration-ms="11482" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2246,18 +3011,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:10 IST" name="tearDown" finished-at="2025-12-22T23:36:10 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790750" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:10 IST" name="setup" finished-at="2025-12-22T23:36:12 IST" duration-ms="1321" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790751" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:12 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:23 IST" duration-ms="11559" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2305,18 +3139,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:23 IST" name="tearDown" finished-at="2025-12-22T23:36:26 IST" duration-ms="2738" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790756" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:26 IST" name="setup" finished-at="2025-12-22T23:36:27 IST" duration-ms="826" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790757" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:27 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-22T23:36:39 IST" duration-ms="12305" status="PASS">
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="test" data-provider="makeAppointmentData" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2364,10 +3267,160 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@50d13246]" started-at="2025-12-22T23:36:39 IST" name="tearDown" finished-at="2025-12-22T23:36:40 IST" duration-ms="776" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790761" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790790" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTwo()[pri:2, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="testTwo" finished-at="2025-12-24T19:46:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=143.0.7499.148)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [671de15296caf4f5d918f909fab5311a, get {url=http://localhost:4040/makeappointment?id=gpfdevtest}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.148, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59168}, goog:processID: 34412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59168/devtoo..., se:cdpVersion: 143.0.7499.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 671de15296caf4f5d918f909fab5311a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at Base.BaseTest.setup(BaseTest.java:31)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mkAppt.dateAndTimeSlotSelection@73e9cf30]" started-at="2025-12-24T19:46:30 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1766585790792" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

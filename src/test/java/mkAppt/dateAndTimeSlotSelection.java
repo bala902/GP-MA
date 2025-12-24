@@ -8,7 +8,7 @@ public class dateAndTimeSlotSelection extends BaseTest {
 
 	private String bookingType;
 
-	@Test(dataProvider = "makeAppointmentData", dataProviderClass = makeAppointment.class)
+	@Test(priority= 1,dataProvider = "makeAppointmentData", dataProviderClass = makeAppointment.class)
 	public void test(String provider, String location, String service, String firstName, String lastName, String DOB,
 			String gendar, String cellPhone, String email) throws Exception {
 
@@ -30,12 +30,20 @@ public class dateAndTimeSlotSelection extends BaseTest {
 			
 			if (bookingType.equals("Request New Appointment")) {
 				pages.getSlotSelectionPage().sentAppRequest();
+				
+				
 			}
 			else
 				pages.getSlotSelectionPage().sentAppointment();
-	   }else 
-			System.out.println("END");
-		
+	   } else 
+			System.out.println("END");		
 	}
 
+	@Test(priority= 2)
+	public void testTwo() throws Exception {
+		
+		pages.getSlotSelectionPage().rescheduleCancel();
+		
+		
+	}
 }

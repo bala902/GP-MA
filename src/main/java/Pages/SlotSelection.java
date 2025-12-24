@@ -40,17 +40,8 @@ public class SlotSelection extends BasePage {
 	@FindBy(xpath = "(//button[@type='button'])[1]")
 	private WebElement requestNewAppointmentBtn;
 
-	@FindBy(xpath = "//div[contains(@class,'border') and contains(@class,'flex-row')]//h4")
-	private List<WebElement> listOfProv;
-
-	@FindBy(xpath = "(//div[contains(@class,'border') and contains(@class,'flex-row')]//h4)[position()>1]")
-	private List<WebElement> listOfLoc;
-
-	@FindBy(xpath = "(//div[contains(@class,'border') and contains(@class,'flex-row')]//h4)[position()>2]")
-	private List<WebElement> listOfSer;
-
-	@FindBy(xpath = "(//button[@type='button'][normalize-space()='Change'])[3]")
-	private WebElement serChangeButton;
+	@FindBy(xpath = "//button[@id='rescheduleBtn']")
+	private WebElement rescheduleAndCancelBtn;
 
 	// ==============================
 	// Appointment Actions
@@ -175,7 +166,7 @@ public class SlotSelection extends BasePage {
 
 	public void selectTheFirstDate() throws Exception {
 		try {
-			//List<WebElement> dates = driver.findElements(By.xpath("//div[contains(@class,'react-datepicker__day') and @aria-disabled='false']"));
+			
 			  By datesBy = By.xpath("//div[contains(@class,'react-datepicker__day') and @aria-disabled='false']");
 			    wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(datesBy, 0));
 			    List<WebElement> dates = driver.findElements(datesBy);
@@ -188,8 +179,7 @@ public class SlotSelection extends BasePage {
 
 	public void selectTheFirstSlot() throws Exception {
 		try {
-			//List<WebElement> slots = driver.findElements(By.xpath("//button[@type='button' and contains(@class,'cursor-pointer')]"));
-			//System.out.println(slots.size());
+			
 		    By slotsBy = By.xpath("//button[@type='button' and contains(@class,'cursor-pointer')]");
 		    wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(slotsBy, 0));
 		    List<WebElement> slots = driver.findElements(slotsBy);
@@ -266,4 +256,14 @@ public class SlotSelection extends BasePage {
 	// ==============================
 	// Reschedule Appointment
 	// ==============================
+	
+	public void rescheduleCancel() throws Exception {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(rescheduleAndCancelBtn)).click();
+		}
+		catch (Exception e) {
+			handleException("rescheduleCancel", e);
+		}
+	}
+	
 }
