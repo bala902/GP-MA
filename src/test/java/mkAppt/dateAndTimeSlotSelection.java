@@ -29,9 +29,8 @@ public class dateAndTimeSlotSelection extends BaseTest {
 			pages.getSlotSelectionPage().fill(firstName, lastName, DOB, gendar, cellPhone, email);
 			
 			if (bookingType.equals("Request New Appointment")) {
-				pages.getSlotSelectionPage().sentAppRequest();
-				
-				
+				pages.getSlotSelectionPage().sentAppRequest();		
+			
 			}
 			else
 				pages.getSlotSelectionPage().sentAppointment();
@@ -39,11 +38,4 @@ public class dateAndTimeSlotSelection extends BaseTest {
 			System.out.println("END");		
 	}
 
-	@Test(priority= 2)
-	public void testTwo() throws Exception {
-		
-		pages.getSlotSelectionPage().rescheduleCancel();
-		
-		
-	}
 }
