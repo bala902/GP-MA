@@ -27,8 +27,7 @@ public class dateAndTimeSlotSelection extends BaseTest {
 			pages.getSlotSelectionPage().selectTheFirstSlot();
 
 			pages.getSlotSelectionPage().fill(firstName, lastName, DOB, gendar, cellPhone, email);
-			System.out.println(DOB + "---------------");
-
+			
 			if (bookingType.equals("Request New Appointment")) {
 				pages.getSlotSelectionPage().sentAppRequest();
 			}

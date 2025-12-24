@@ -17,11 +17,4 @@ public class BasePage {
         throw e;
     }
 
-    protected void safeAction(String actionName, Runnable action) throws Exception {
-        try {
-            action.run();
-        } catch (Exception e) {
-            handleException(actionName, e);
-        }
-    }
 }
