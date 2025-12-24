@@ -32,12 +32,9 @@ public class dateAndTimeSlotSelection extends BaseTest {
 			if (bookingType.equals("Request New Appointment")) {
 				pages.getSlotSelectionPage().sentAppRequest();
 			}
-
 			else
 				pages.getSlotSelectionPage().sentAppointment();
-		
-	}	else 
-		
+	   }else 
 			System.out.println("END");
 		
 	}
